@@ -2,11 +2,13 @@ A simple course registration system in Java that connects to a MySQL database us
 
 The program performs the following:
 
-1)  At startup, prompt the user for their student ID
+1) Take user id, password, and connection string for the database as command line arguments.
 
-2) Prompt the user to select one of the operations: Get Transcript, Check Degree Requirements, Add Course, Remove Course, or Exit
+2)  At startup, prompt the user for their student ID
 
-3) Based on their input, run the appropriate queries using Dynamic SQL:
+3) Prompt the user to select one of the operations: Get Transcript, Check Degree Requirements, Add Course, Remove Course, or Exit
+
+4) Based on their input, run the appropriate queries using Dynamic SQL:
 
 	a) Get Transcript: use a student’s ID to query their transcript using Dynamic SQL. 	The transcript should include the course number, course title, semester, year, 	grade, and credits of every course the Student has taken in chronological order.
 	
